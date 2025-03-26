@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #e2be0a;
+  --primary-color:#3a6a22;
   --text-dark: #0f172a;
   --white: #ffffff;
   --max-width: 1200px;
@@ -206,6 +206,7 @@ nav {
 }
 
 .container__content h1 {
+  margin-bottom: 1rem;
   font-size: 4rem;
   font-weight: 600;
   line-height: 5rem;
@@ -216,21 +217,31 @@ nav {
   margin-inline: auto;
   margin-bottom: 1rem;
   max-width: 450px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 3rem;
   color: var(--white);
 }
 
+.container__content h3 {
+ 
+  margin: 1rem 0 0 0;
+  max-width: 450px;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--primary-color);
+}
+
 .container__content p {
   margin-inline: auto;
-  margin-bottom: 4rem;
+  margin-bottom: 0.5rem;
   max-width: 400px;
   color: var(--white);
 }
 
 .socials > div {
-  margin-bottom: 0.5rem;
+  margin: 1rem 0 0.5rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
